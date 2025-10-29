@@ -1,0 +1,72 @@
+.book-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 180px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(6px);
+}
+
+.book-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+}
+
+.book-image-wrapper {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.book-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.book-card:hover .book-cover {
+  transform: scale(1.05);
+}
+
+.book-info {
+  padding: 12px;
+}
+
+.book-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.book-author {
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-bottom: 4px;
+}
+
+.book-year {
+  font-size: 0.85rem;
+  color: #ffd700;
+  font-weight: 500;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .book-card {
+    width: 150px;
+  }
+  .book-image-wrapper {
+    height: 210px;
+  }
+  .book-title {
+    font-size: 0.9rem;
+  }
+}
