@@ -5,8 +5,6 @@
 
 ---
 
-### 🚀 **Live Demo**
-🔗 [Book Finder App](https://6d24m3-3000.csb.app/)
 
 CHATGPT link: https://chatgpt.com/g/g-p-6902f5fecb708191a4cf413f0ed09fc8-book-finder/shared/c/6902faad-a4dc-8320-8495-bb80c6aca3dd?owner_user_id=user-VKI92qp92BvxrHbKlN9Sk4vt
 ---
